@@ -237,7 +237,7 @@ def runfrombash(kiwi):
 	else:
 		flag = sys.argv[1][1:] # to remove dash
 		something = sys.argv[2]
-		kiwi.execute(flaf.something)
+		kiwi.execute(flag, something)
 
 if __name__ == '__main__':
 	kiwi = kiwi('/Users/Andrea/Documents/Coding/python/kiwi/db.csv')
