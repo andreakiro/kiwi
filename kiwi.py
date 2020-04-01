@@ -35,7 +35,7 @@ class kiwi:
 
 		print 'Data is then stored in a database identified by the current date'
 
-		print 'Use python kiwi.py -r to read the databse'
+		print 'Use kiwi to read the databse if you are in terminal'
 
 	def fromfield(self, field):
 		switcher = {
